@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Mongo CRUD</title>
+</head>
+
+<body>
+    <header>Directory App</header>
+    <div class="main-table">
+        <div class="table-control">
+            <p>Mis Contactos</p>
+            <div class="tc-btns">
+                <button id="Add" class="material-icons" href="./new-user.html">person_add_alt</button>
+            </div>
+        </div>
+        <div class="table">
+            <div class="table-title">
+                <p>Name</p>
+                <p>e-mail</p>
+                <p>Phone</p>
+                <p>Actions</p>
+            </div>
+            <div id="table-body">
+
+            </div>
+            <div class="pagination">
+                <div id="showing">
+
+                </div>
+                <div class="pagination-control">
+                    <button class="pg-ctrl" id="previous">Anterior</button>
+                    <button class="pg-ctrl" id="next">Siguiente</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/The-Cyber-Tiger">
+            <img src="./RGDev.png" alt="RodrigoGibranDev" id="rgdev">
+        </a>
+    </footer>
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>
