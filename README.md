@@ -22,4 +22,4 @@ Es un aplicacion básica construida con HTML5, CSS3 y Javascript puro que te per
 3. Utiliza la app para gestionar tus contactos.
 
 ## Status
-Online - Deployed on Netlify.
+**Online** - Deployed on Netlify.
